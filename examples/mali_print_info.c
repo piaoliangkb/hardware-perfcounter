@@ -110,7 +110,7 @@ int main() {
       {MALI_PROPERTY_VERSION_STATUS, "Version status"},
       {MALI_PROPERTY_MINOR_REVISION, "Minor revision"},
       {MALI_PROPERTY_MAJOR_REVISION, "Major revision"},
-      {MALI_PROPERTY_GPU_FREQ_KHZ_MAX, "Max freqency (kHz)"},
+      {MALI_PROPERTY_GPU_FREQ_KHZ_MAX, "Max frequency (kHz)"},
       {MALI_PROPERTY_GPU_AVAILABLE_MEMORY_SIZE, "Available memory size"},
       {MALI_PROPERTY_L2_LOG2_LINE_SIZE, "L2 log2 line size"},
       {MALI_PROPERTY_L2_LOG2_CACHE_SIZE, "L2 log2 cache size"},

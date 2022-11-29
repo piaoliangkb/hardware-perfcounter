@@ -20,6 +20,8 @@ cmake_minimum_required(VERSION 3.13...3.20)
 
 project(HardwarePerfCounter VERSION 0.1.0 LANGUAGES C CXX)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -30,7 +32,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 #===------------------------------------------------------------------------===#
 
 option(HPC_ENABLE_GPU_ADRENO "Enable support for Qualcomm Adreno GPUs" ON)
-option(HPC_ENABLE_GPU_MALI   "Enable support for ARM Mali GPUs" ON)
+option(HPC_ENABLE_GPU_MALI   "Enable support for ARM Mali GPUs" OFF)
 
 option(HPC_BUILD_EXAMPLES "Build usage example binaries" ON)
 

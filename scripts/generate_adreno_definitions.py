@@ -133,7 +133,7 @@ class AdrenoPerfCounter:
 
 @dataclass
 class AdrenoPerSeriesDefinition:
-  """A data class containing all performance counters for one Andreo series."""
+  """A data class containing all performance counters for one Adreno series."""
   series: str
   # {group-name -> {counter-symbol -> counter}}
   groups: Dict[str, Dict[str, AdrenoPerfCounter]]

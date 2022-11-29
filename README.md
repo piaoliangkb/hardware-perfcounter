@@ -69,6 +69,12 @@ cmake -G Ninja -S ./ -B build-android/  \
 cmake --build build-android/
 ```
 
+A simple build command:
+
+```
+./build.sh
+```
+
 Where `ANDROID_NDK` is the path to the [Android NDK installation][android-ndk-install].
 See Android's CMake guide for explanation over [`ANDROID_ABI`][android-abi] and
 [`ANROID_PLATFORM`][android-platform].
@@ -83,6 +89,10 @@ cd HardwarePerfCounter
 cmake -G Ninja -S ./ -B build/
 cmake --build build/
 ```
+
+### Cross-compile to aarch64
+
+TODO
 
 ### Windows
 

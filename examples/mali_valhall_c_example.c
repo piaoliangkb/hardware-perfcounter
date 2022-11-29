@@ -78,7 +78,7 @@ int main() {
   if (status < 0) return print_error(status, "stop counters");
 
   status = hpc_gpu_mali_valhall_destroy_context(context, &allocator);
-  if (status < 0) return print_error(status, "destory context");
+  if (status < 0) return print_error(status, "destroy context");
 
   return 0;
 }

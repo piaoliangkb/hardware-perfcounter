@@ -62,7 +62,7 @@ int hpc_gpu_adreno_a6xx_destroy_context(
 /// the context.
 ///
 /// This activates the registered counters and reads their initial values in
-/// preparation for continously sampling.
+/// preparation for continuously sampling.
 ///
 /// @param[in] context The counter sampling context.
 int hpc_gpu_adreno_a6xx_start_counters(const hpc_gpu_adreno_context_t *context);
